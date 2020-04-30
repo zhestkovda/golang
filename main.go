@@ -40,6 +40,8 @@ func main() {
 		fmt.Println("a = 6 или 5 или 4, но это не точно")
 	case 10:
 		fmt.Println("a = 10")
+	case 11:
+		fmt.Println("a = 11")
 	default:
 		fmt.Println("значение переменной a не определено")
 	}
