@@ -30,7 +30,7 @@ func main() {
 
 	aq := 5
 	switch aq {
-	case 9:
+	case 1:
 		fmt.Println("a = 9")
 	case 8:
 		fmt.Println("a = 8")
@@ -38,9 +38,10 @@ func main() {
 		fmt.Println("a = 7")
 	case 6, 5, 4:
 		fmt.Println("a = 6 или 5 или 4, но это не точно")
+	case 10:
+		fmt.Println("a = 10")
 	default:
 		fmt.Println("значение переменной a не определено")
 	}
 
-	
 }
