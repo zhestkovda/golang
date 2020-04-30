@@ -20,7 +20,7 @@ func main() {
 	}
 
 	var c bool = a == b
-	//fmt.Println(c)
+	fmt.Println(c)
 
 	hello = "привет"
 	fmt.Println(hello + " " + strconv.Itoa(k))
@@ -28,8 +28,8 @@ func main() {
 	var numbers [5]int = [5]int{1, 2}
 	fmt.Println(numbers) // [1 2 0 0 0]
 
-	a := 5
-	switch a {
+	aq := 5
+	switch aq {
 	case 9:
 		fmt.Println("a = 9")
 	case 8:
@@ -41,4 +41,6 @@ func main() {
 	default:
 		fmt.Println("значение переменной a не определено")
 	}
+
+	
 }
